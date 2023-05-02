@@ -1,38 +1,124 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  background: #23252c;
+  position: relative;
+  font-family: "Inter", sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container {
+  background-color: #1a1b21;
+  width: 390px;
+  /* height: 700px; */
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  align-items: center;
+  position: relative;
+  margin: 40px auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.info {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.profile-pic {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.profile-name {
+  font-size: 25px;
+  text-align: center;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 30px;
+  margin: 19px 0 6px 0;
+}
+
+.profile-job {
+  color: #f3bf99;
+  font-size: 12.8px;
+  margin: 2px 0;
+}
+
+.profile-link {
+  color: #f5f5f5;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 150%;
+  margin: 6px 0;
+  text-decoration: none;
+}
+
+.buttons {
+  display: flex;
+}
+
+.info-logo {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  padding: 7px 13px;
+  font-weight: 500;
+  font-size: 14px;
+  margin: 17px;
+  border-radius: 6px;
+  text-decoration: none;
 }
 
-.App-link {
-  color: #61dafb;
+.email {
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  color: #374151;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.linkedin {
+  background: #5093e2;
+  color: #ffffff;
+}
+
+.logo {
+  margin-right: 5px;
+}
+
+.about {
+  margin: 30px 36px 0 36px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+section p {
+  color: #dcdcdc;
+  font-size: 12px;
+}
+
+.interest {
+  margin: 2px 36px 24px 36px;
+}
+
+.footer {
+  width: inherit;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  padding: 20px;
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.footer-logo {
+  height: 27px;
 }
